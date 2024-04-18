@@ -1,0 +1,14 @@
+# model hyperparameters
+
+hidden_dim : 256
+nharmonics : 50
+nbands : 65
+fs : 16000
+framesize : 80
+temperature : 1.0
+attenuate : 0.02
+reverb_len : 16001
+use_harmonic_conv : False
+dilations : [1, 2, 4, 8, 16]
+nstacks : 1
+checkpoint_path : 'demo_checkpoint.pth'
